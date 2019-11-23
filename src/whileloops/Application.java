@@ -12,6 +12,20 @@ public class Application {
             value = value + 1; //without this, you would have a infinite loop
             System.out.println("Hello " + value); //prints hello 1 - hello 10
         }
+
+        int newLoop = 0;
+        while (newLoop < 5) {
+            System.out.println("Looping " + newLoop);
+            if (newLoop == 5) {
+                break;
+            }
+            newLoop++;
+            System.out.println("Running");
+        }
+
+
+
+
     }
 
 }

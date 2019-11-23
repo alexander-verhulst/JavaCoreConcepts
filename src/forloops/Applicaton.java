@@ -9,7 +9,7 @@ public class Applicaton {
 
           // System.out.println("Hello " + i);
 
-            System.out.println();
+             System.out.println();
 
             //format specifier. %d is used for integers
             System.out.printf("The value of i is: %d", i);
